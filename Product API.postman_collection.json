@@ -57,14 +57,8 @@
             },
             "url": {
               "raw": "{{baseUrl}}/api/auth/register",
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "auth",
-                "register"
-              ]
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "register"]
             }
           }
         },
@@ -100,14 +94,8 @@
             },
             "url": {
               "raw": "{{baseUrl}}/api/auth/login",
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "auth",
-                "login"
-              ]
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "login"]
             }
           }
         }
@@ -146,14 +134,8 @@
             "method": "GET",
             "url": {
               "raw": "{{baseUrl}}/api/products/search?name=phone",
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "products",
-                "search"
-              ],
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "products", "search"],
               "query": [
                 {
                   "key": "name",
